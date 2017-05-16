@@ -1,0 +1,9 @@
+$COLUMNS: 12;
+@mixin column($UNID) {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: percentage($UNID/$COLUMNS);
+}

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+.row {
+  content: "";
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.coluna-1 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 8.33333%; }
+
+.coluna-2 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 16.66667%; }
+
+.coluna-3 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 25%; }
+
+.coluna-4 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 33.33333%; }
+
+.coluna-5 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 41.66667%; }
+
+.coluna-6 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 50%; }
+
+.coluna-7 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 58.33333%; }
+
+.coluna-8 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 66.66667%; }
+
+.coluna-9 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 75%; }
+
+.coluna-10 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 83.33333%; }
+
+.coluna-11 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 91.66667%; }
+
+.coluna-12 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%; }
+
+@media (min-width: 10px) and (max-width: 576px) {
+  [class*="coluna"] {
+    width: 100%; } }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  [class*="coluna"] {
+    width: 50%; } }
+
+@media (min-width: 769px) and (max-width: 992px) {
+  [class*="coluna"] {
+    width: 33%; } }
+
+/***** FORMATAÇÃO DOS GRIDS *****/
+.coluna-1 {
+  background-color: #2196F3;
+  border-style: solid;
+  border: #000; }
+
+.coluna-2 {
+  background-color: #3F51B5;
+  border-style: solid;
+  border: #000; }
+
+.coluna-3 {
+  background-color: #FFEB3B;
+  border-style: solid;
+  border: #000; }
+
+.coluna-4 {
+  background-color: #F44336;
+  border-style: solid;
+  border: #000; }
+
+.coluna-5 {
+  background-color: #8BC34A;
+  border-style: solid;
+  border: #000; }
+
+.coluna-6 {
+  background-color: #FF9800;
+  border-style: solid;
+  border: #000; }
+
+.coluna-7 {
+  background-color: #795548;
+  border-style: solid;
+  border: #000; }
+
+.coluna-8 {
+  background-color: #9E9E9E;
+  border-style: solid;
+  border: #000; }
+
+.coluna-9 {
+  background-color: #607D8B;
+  border-style: solid;
+  border: #000; }
+
+.coluna-10 {
+  background-color: #4CAF50;
+  border-style: solid;
+  border: #000; }
+
+.coluna-11 {
+  background-color: #00BCD4;
+  border-style: solid;
+  border: #000; }
+
+.coluna-12 {
+  background-color: #E91E63;
+  border-style: solid;
+  border: #000; }
